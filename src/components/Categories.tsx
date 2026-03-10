@@ -70,11 +70,11 @@ export default function Categories() {
                   <div className="text-sage mb-3 transform group-hover:-translate-y-1 transition-transform duration-500">
                     {cat.icon}
                   </div>
-                  <h3 className="text-lg font-serif font-bold text-black mb-1">{cat.name}</h3>
-                  <p className="text-gray-800 text-[11px] mb-3 line-clamp-2">
-                    {cat.description}
-                  </p>
-                  <a
+<h3 className="text-lg font-serif font-bold text-black mb-1">{cat.name}</h3>
+
+<p className="text-gray-800 text-[11px] mb-3 line-clamp-2">
+  {cat.description}
+</p>                  <a
                     href={`https://wa.me/919650423650?text=Hi, I'm interested in ${cat.name}. Can you provide more details?`}
                     target="_blank"
                     rel="noopener noreferrer"
